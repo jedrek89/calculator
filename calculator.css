@@ -1,54 +1,88 @@
 body
 {
-    align-content: center;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin: 0px 0px 0px 0px;
+    /* margin: 0px 0px 0px 0px; */
+    all: unset;
 }
 
 .window{
     padding: 5px 5px 5px 5px;
-    width: 500px;
+    width: 310px;
     background-color: rgb(168, 192, 192);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     text-decoration: solid;
     align-items: center;
 }
 
 .textArea
 {
-    width: 490px;
+    width: 300px;
     height: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 24px;
     resize: none;
 }
 
 .but_percent
 {
-    font-size: 16px;
-    width: 40px;
-    height: 40px;
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+    width: 70px;
+    height: 70px;
 }
 
 .but_ce
 {
-    font-size: 16px;
-    width: 40px;
-    height: 40px;
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+    width: 70px;
+    height: 70px;
 }
 
 .but_c
 {
-    font-size: 16px;
-    width: 40px;
-    height: 40px;
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+    width: 70px;
+    height: 70px;
 }
 
 .but_bsp
 {
-    font-size: 16px;
-    width: 40px;
-    height: 40px;
+    margin: 10px 0px 2.5px 2.5px;
+    font-size: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.x1
+{
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.x2
+{
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.x3
+{
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.x4
+{
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+    width: 70px;
+    height: 70px;
 }

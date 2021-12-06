@@ -14,3 +14,5 @@
 //     document.getElementById("poleTekstowe").textContent="dwa";
 //     document.getElementById("poleTekstowe").style.fontWeight="bold";
 // })
+
+console.log("skrypt aktywny! ;)");
