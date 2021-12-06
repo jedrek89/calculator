@@ -1,27 +1,54 @@
 body
 {
     align-content: center;
-    background-color: rgb(168, 192, 192);
     text-transform: uppercase;
     letter-spacing: 2px;
+    margin: 0px 0px 0px 0px;
 }
 
 .window{
+    padding: 5px 5px 5px 5px;
+    width: 500px;
+    background-color: rgb(168, 192, 192);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-decoration: solid;
-    
+    align-items: center;
 }
 
 .textArea
 {
-    width: 200px;
-    height: 18 px;
+    width: 490px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
     resize: none;
 }
 
 .but_percent
 {
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+}
+
+.but_ce
+{
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+}
+
+.but_c
+{
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+}
+
+.but_bsp
+{
+    font-size: 16px;
     width: 40px;
     height: 40px;
 }
