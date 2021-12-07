@@ -2,9 +2,13 @@ body
 {
     /* margin: 0px 0px 0px 0px; */
     all: unset;
+    background-image: url(./math.jpg);
+    background-position: center;
 }
 
 .window{
+    background-image: url(./math.jpg);
+    background-position: left;
     padding: 5px 5px 5px 5px;
     width: 310px;
     background-color: rgb(168, 192, 192);
@@ -17,9 +21,9 @@ body
 .textArea
 {
     width: 300px;
-    height: 30px;
+    height: 80px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
+    font-size: 68px;
     resize: none;
 }
 
@@ -55,7 +59,7 @@ body
     height: 70px;
 }
 
-.x1
+.but_x1
 {
     margin: 10px 0px 0px 0px;
     font-size: 20px;
@@ -63,7 +67,7 @@ body
     height: 70px;
 }
 
-.x2
+.but_x2
 {
     margin: 10px 0px 0px 0px;
     font-size: 20px;
@@ -71,7 +75,7 @@ body
     height: 70px;
 }
 
-.x3
+.but_x3
 {
     margin: 10px 0px 0px 0px;
     font-size: 20px;
@@ -79,10 +83,139 @@ body
     height: 70px;
 }
 
-.x4
+.but_x4
 {
     margin: 10px 0px 0px 0px;
     font-size: 20px;
     width: 70px;
     height: 70px;
 }
+
+.but_7
+{
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.but_8
+{
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.but_9
+{
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.but_x
+{
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.but_4
+{
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.but_5
+{
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.but_6
+{
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.but_-
+{
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.but_1
+{
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.but_2
+{
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.but_3
+{
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.but_plus
+{
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.but_plus_minus
+{
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.but_0
+{
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.but_dot
+{
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+    width: 70px;
+    height: 70px;
+}
+
+.but_equal
+{
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+    width: 70px;
+    height: 70px;
+}
+
