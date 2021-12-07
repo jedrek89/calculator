@@ -1,18 +1,25 @@
-// Napisz funkcję, która zwraca ciąg "something" połączony spracją " "
-// i podany argument a.
 
-
-// document.getElementById("btn05").addEventListener("click", function()
-// {
-//     document.getElementById("poleTekstowe").textContent="jeden";
-//     document.getElementById("poleTekstowe").style.fontWeight="normal";
-// })
-
-// document.getElementById("btn06").addEventListener("click", function()
-// {
+function keypad() 
+{
+    document.getElementById("but_1").addEventListener("click", function()
+    {
+    console.log("Button 1 click");
+    });
     
-//     document.getElementById("poleTekstowe").textContent="dwa";
-//     document.getElementById("poleTekstowe").style.fontWeight="bold";
-// })
+    document.getElementById("but_2").addEventListener("click", function()
+    {
+    console.log("Button 2 click");
+    });   
 
-console.log("skrypt aktywny! ;)");
+    document.getElementById("but_3").addEventListener("click", function()
+    {
+    console.log("Button 3 click");
+    }); 
+
+    document.getElementById("but_4").addEventListener("click", function()
+    {
+    console.log("Button 4 click");
+    }); 
+}
+
+keypad(); 
