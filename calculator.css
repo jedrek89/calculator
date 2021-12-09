@@ -2,12 +2,14 @@ body
 {
     /* margin: 0px 0px 0px 0px; */
     all: unset;
+    background-image: url(math.jpg);
+    background-position: top;
 }
 
 .window{
     margin: 50px auto; 
     align-items: center;
-    background-image: url(/math.jpg);
+    background-image: url(math.jpg);
     background-position: top;
     padding: 5px 5px 5px 5px;
     width: 310px;
@@ -15,7 +17,7 @@ body
     font-size: 30px;
     color: beige;
     text-decoration: solid;
-    opacity: 0.8;
+    opacity: 0.95;
 }
 
 .textArea

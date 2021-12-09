@@ -1,130 +1,160 @@
+// document.getElementById("textArea").value = "xd";
 
-
+const input ="null";
 
 function keypad() 
 {
     document.getElementById("but_percent").addEventListener("click", function()
-    {
-    console.log("Button % click");
-    });
+        {
+            input = "%";
+            console.log(input);
+        });
     
     document.getElementById("but_ce").addEventListener("click", function()
-    {
-    console.log("Button CE click");
-    });   
+        {
+            input = "CE";
+            console.log(input);
+        });   
 
     document.getElementById("but_c").addEventListener("click", function()
-    {
-    console.log("Button C click");
-    });
+        {
+            input = "C";
+            console.log(input);
+        });
 
     document.getElementById("but_bsp").addEventListener("click", function()
-    {
-    console.log("Button < click");
-    });
+        {
+            input = "<";
+            console.log(input);
+        });
 
     document.getElementById("but_x1").addEventListener("click", function()
-    {
-    console.log("Button 1/x click");
-    });
+        {
+            input = "x1";
+            console.log(input);
+        });
 
     document.getElementById("but_x2").addEventListener("click", function()
-    {
-    console.log("Button x2 click");
-    });
+        {
+            input = "x2";
+            console.log(input);
+        });
 
     document.getElementById("but_x3").addEventListener("click", function()
-    {
-    console.log("Button x√2 click");
-    });
+        {
+            input = "x3";
+            console.log(input);
+        });
 
     document.getElementById("but_x4").addEventListener("click", function()
-    {
-    console.log("Button / click");
-    });
+        {
+            input = "x4";
+            console.log(input);
+        });
 
     document.getElementById("but_7").addEventListener("click", function()
-    {
-    console.log("Button 7 click");
-    }); 
+        {
+            input = 7;
+            console.log(input);
+        }); 
 
     document.getElementById("but_8").addEventListener("click", function()
-    {
-    console.log("Button 8 click");
-    }); 
+        {
+            input = 8;
+            console.log(input);
+        }); 
 
     document.getElementById("but_9").addEventListener("click", function()
-    {
-    console.log("Button 9 click");
-    }); 
+        {
+            input = 9;
+            console.log(input);
+        }); 
 
     document.getElementById("but_x").addEventListener("click", function()
-    {
-    console.log("Button x click");
-    }); 
+        {
+            input = "x";
+            console.log(input);
+        }); 
 
     document.getElementById("but_4").addEventListener("click", function()
-    {
-    console.log("Button 4 click");
-    }); 
+        {
+            input = 4;
+            console.log(input);
+        }); 
 
     document.getElementById("but_5").addEventListener("click", function()
-    {
-    console.log("Button 5 click");
-    }); 
+        {
+            input = 5;
+            console.log(input);
+        }); 
 
     document.getElementById("but_6").addEventListener("click", function()
-    {
-    console.log("Button 6 click");
-    }); 
+        {
+            input = 6;
+            console.log(input);
+        }); 
 
     document.getElementById("but_-").addEventListener("click", function()
-    {
-    console.log("Button - click");
-    }); 
+        {
+            input = "-";
+            console.log(input);
+        }); 
 
     document.getElementById("but_1").addEventListener("click", function()
-    {
-    console.log("Button 1 click");
-    }); 
+        {
+            input = 1;
+            console.log(input);
+        }); 
 
     document.getElementById("but_2").addEventListener("click", function()
-    {
-    console.log("Button 2 click");
-    }); 
+        {
+            input = 2;
+            console.log(input);
+        }); 
 
     document.getElementById("but_3").addEventListener("click", function()
-    {
-    console.log("Button 3 click");
-    }); 
+        {
+            input = 3;
+            console.log(input);
+        }); 
 
     document.getElementById("but_plus").addEventListener("click", function()
-    {
-    console.log("Button + click");
-    }); 
+        {
+            input ="+";
+            console.log(input);
+        }); 
 
     document.getElementById("but_plus_minus").addEventListener("click", function()
-    {
-    console.log("Button +/- click");
-    }); 
+        {
+            input = "+/-"
+            console.log(input);
+        }); 
 
     document.getElementById("but_0").addEventListener("click", function()
-    {
-    console.log("Button 0 click");
-    }); 
+        {
+            input = 0;
+            console.log(input);
+        }); 
 
     document.getElementById("but_dot").addEventListener("click", function()
-    {
-    console.log("Button , click");
+        {
+            input = ","
+            console.log(input);
+        })
 
     document.getElementById("but_equal").addEventListener("click", function()
-    {
-    console.log("Button = click");
-    }); 
+        {
+            input = "="
+            // console.log(input);
+        }); 
 
-    }); 
-
-
-}
+        
+    }; 
 
 keypad(); 
+
+console.log(input);
+
+function checkInt () {
+    
+}
